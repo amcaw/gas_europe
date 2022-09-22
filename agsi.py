@@ -49,6 +49,17 @@ df_base = pd.read_csv('https://raw.githubusercontent.com/amcaw/gas_europe/main/b
 
 df_ALL_FR = pd.merge(df_base, df_ALL)
 
+# Select columns
+
 df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend"]]
+
+# Cleaning to add up and down arrows
+
+df_ALL_FR['trend'] = '&#x25B2; ' + df_ALL_FR['trend'].astype(str)
+df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('&#x25B2; -','&#x25BC; ')
+df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^&#x25B2; 0$':'='}, regex = True)
+
+# Export to csv
+
 
 df_ALL_FR.to_csv("./gas_all.csv", index=False)
