@@ -1,21 +1,21 @@
 name_fr,percentage_full,trend
-Autriche,75.25,&#x25B2; 0.42
-Belgique,85.36,&#x25B2; 0.87
-Bulgarie,71.15,&#x25B2; 0.49
-Croatie,86.37,&#x25B2; 0.47
-République tchèque,84.3,&#x25B2; 0.11
-Danemark,94.98,&#x25B2; 0.02
-France,95.81,&#x25B2; 0.14
-Allemagne,90.41,&#x25B2; 0.12
-Hongrie,70.44,&#x25B2; 0.33
-Italie,88.26,&#x25B2; 0.24
-Lettonie,52.12,&#x25B2; 0.11
-Pays-Bas,87.57,&#x25B2; 0.28
-Pologne,98.32,&#x25BC; 0.01
+Autriche,75.25,"<span style=""color:green"">&#x25B2;</span> 0.42"
+Belgique,85.36,"<span style=""color:green"">&#x25B2;</span> 0.87"
+Bulgarie,71.15,"<span style=""color:green"">&#x25B2;</span> 0.49"
+Croatie,86.37,"<span style=""color:green"">&#x25B2;</span> 0.47"
+République tchèque,84.3,"<span style=""color:green"">&#x25B2;</span> 0.11"
+Danemark,94.98,"<span style=""color:green"">&#x25B2;</span> 0.02"
+France,95.81,"<span style=""color:green"">&#x25B2;</span> 0.14"
+Allemagne,90.41,"<span style=""color:green"">&#x25B2;</span> 0.12"
+Hongrie,70.44,"<span style=""color:green"">&#x25B2;</span> 0.33"
+Italie,88.26,"<span style=""color:green"">&#x25B2;</span> 0.24"
+Lettonie,52.12,"<span style=""color:green"">&#x25B2;</span> 0.11"
+Pays-Bas,87.57,"<span style=""color:green"">&#x25B2;</span> 0.28"
+Pologne,98.32,"<span style=""color:red"">&#x25BC;</span> 0.01"
 Portugal,100,=
-Roumanie,82.19,&#x25B2; 0.36
-Slovaquie,85.26,&#x25B2; 0.15
-Espagne,88.28,&#x25B2; 0.2
+Roumanie,82.19,"<span style=""color:green"">&#x25B2;</span> 0.36"
+Slovaquie,85.26,"<span style=""color:green"">&#x25B2;</span> 0.15"
+Espagne,88.28,"<span style=""color:green"">&#x25B2;</span> 0.2"
 Suède,90.81,=
-Ukraine,29.33,&#x25B2; 0.09
-Royaume-Uni,95.83,&#x25BC; 1.95
+Ukraine,29.33,"<span style=""color:green"">&#x25B2;</span> 0.09"
+Royaume-Uni,95.83,"<span style=""color:red"">&#x25BC;</span> 1.95"
