@@ -47,7 +47,7 @@ df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full
 
 df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
-df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'percentage_full', 'trend'])
+df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'price', 'trend'])
 
 # Concat files
 
@@ -77,7 +77,7 @@ df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x
 
 df_BE = df_BE.reindex(index=df_BE.index[::-1])
 df_BE["date_fr"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
-df_BE = df_BE[["date", "percentage_full", "date_fr"]]
+df_BE = df_BE[["date", "price", "date_fr"]]
 
 # Export to csv
 
