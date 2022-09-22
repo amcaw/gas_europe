@@ -11,11 +11,17 @@ headers = {
 
 response = requests.get('https://agsi.gie.eu/api?', headers=headers)
 
+response_be = requests.get('https://agsi.gie.eu/api?', headers=headers)
+
 myjson = response.json()
+
+myjson_BE = response_be.json()
 
 ourdata_EU = []
 
 ourdata_NON_EU = []
+
+ourdata_BE = []
 
 csvheader = ["name", "gasDayStart", "full", "trend"]
 
@@ -31,9 +37,17 @@ for x in myjson ['data'][1]['children']:
     listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_NON_EU.append(listing)
     
+#BE
+
+for x in myjson_BE ['data']:
+    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    ourdata_BE.append(listing)
+    
 df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
 df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
+
+df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'percentage_full', 'trend'])
 
 # Concat files
 
@@ -59,7 +73,14 @@ df_ALL_FR['trend'] = '<span style="color:green">&#x25B2;</span> ' + df_ALL_FR['t
 df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('<span style="color:green">&#x25B2;</span> -','<span style="color:red">&#x25BC;</span> ')
 df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x25B2;</span> 0$':'='}, regex = True)
 
+# Cleaning BE data
+
+df_BE = df_BE.reindex(index=df.index[::-1])
+df_BE["date"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
+df_BE = df_BE[["date", "percentage_full"]]
+
 # Export to csv
 
 
 df_ALL_FR.to_csv("./gas_all.csv", index=False)
+df_BE.to_csv("./gas_be.csv", index=False)
