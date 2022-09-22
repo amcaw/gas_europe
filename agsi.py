@@ -55,9 +55,9 @@ df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend"]]
 
 # Cleaning to add up and down arrows
 
-df_ALL_FR['trend'] = '&#x25B2; ' + df_ALL_FR['trend'].astype(str)
-df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('&#x25B2; -','&#x25BC; ')
-df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^&#x25B2; 0$':'='}, regex = True)
+df_ALL_FR['trend'] = '<span style="color:green">&#x25B2;</span> ' + df_ALL_FR['trend'].astype(str)
+df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('<span style="color:green">&#x25B2;</span> -','<span style="color:red">&#x25BC;</span> ')
+df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x25B2;</span> 0$':'='}, regex = True)
 
 # Export to csv
 
