@@ -51,4 +51,4 @@ df_ALL_FR = pd.merge(df_base, df_ALL)
 
 df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend"]]
 
-df.to_csv("./gas.csv", index=False)
+df_ALL_FR.to_csv("./gas_all.csv", index=False)
