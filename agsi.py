@@ -11,6 +11,8 @@ headers = {
 
 response = requests.get('https://agsi.gie.eu/api?', headers=headers)
 
+myjson = response.json()
+
 ourdata_EU = []
 
 ourdata_NON_EU = []
