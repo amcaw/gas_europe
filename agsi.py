@@ -75,7 +75,7 @@ df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x
 
 # Cleaning BE data
 
-df_BE = df_BE.reindex(index=df.index[::-1])
+df_BE = df_BE.reindex(index=df_BE.index[::-1])
 df_BE["date"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
 df_BE = df_BE[["date", "percentage_full"]]
 
