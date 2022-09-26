@@ -11,7 +11,7 @@ headers = {
 
 response = requests.get('https://agsi.gie.eu/api?', headers=headers)
 
-response_be = requests.get('https://agsi.gie.eu/api?country=BE&from=2022-01-01&to=2022-09-18&page=1&size=3000', headers=headers)
+response_be = requests.get('https://agsi.gie.eu/api?country=BE&from=2022-01-01&page=1&size=3000', headers=headers)
 
 myjson = response.json()
 
