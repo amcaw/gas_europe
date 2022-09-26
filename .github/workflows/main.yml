@@ -21,10 +21,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script 
+      - name: execute eu script 
         env: 
           api_key: ${{ secrets.api_key }}
         run: python agsi.py
+        
+      - name: execute be script 
+        env: 
+          api_key: ${{ secrets.api_key }}
+        run: python agsi_be.py
         
       - name: Commit files
         run: |
