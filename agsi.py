@@ -36,12 +36,10 @@ for x in myjson ['data'][0]['children']:
 for x in myjson ['data'][1]['children']:
     listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_NON_EU.append(listing)
-    
+   
 df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
 df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
-
-df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'price', 'trend'])
 
 # Concat files
 
@@ -75,6 +73,7 @@ for x in myjson_BE ['data']:
 
 # Cleaning BE data
 
+df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'price', 'trend'])
 df_BE = df_BE.reindex(index=df_BE.index[::-1])
 df_BE["date_fr"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
 df_BE = df_BE[["date", "price", "date_fr"]]
@@ -83,4 +82,4 @@ df_BE = df_BE[["date", "price", "date_fr"]]
 
 
 df_ALL_FR.to_csv("./gas_all.csv", index=False)
-df_BE.to_csv("./gas_be_new.csv", index=False)
+df_BE.to_csv("./gas_be.csv", index=False)
