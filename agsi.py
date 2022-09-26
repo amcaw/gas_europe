@@ -37,12 +37,6 @@ for x in myjson ['data'][1]['children']:
     listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_NON_EU.append(listing)
     
-#BE
-
-for x in myjson_BE ['data']:
-    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
-    ourdata_BE.append(listing)
-    
 df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
 df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
@@ -73,6 +67,12 @@ df_ALL_FR['trend'] = '<span style="color:green">&#x25B2;</span> ' + df_ALL_FR['t
 df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('<span style="color:green">&#x25B2;</span> -','<span style="color:red">&#x25BC;</span> ')
 df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x25B2;</span> 0$':'='}, regex = True)
 
+#BE
+
+for x in myjson_BE ['data']:
+    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    ourdata_BE.append(listing)
+
 # Cleaning BE data
 
 df_BE = df_BE.reindex(index=df_BE.index[::-1])
@@ -83,4 +83,4 @@ df_BE = df_BE[["date", "price", "date_fr"]]
 
 
 df_ALL_FR.to_csv("./gas_all.csv", index=False)
-df_BE.to_csv("./gas_be.csv", index=False)
+df_BE.to_csv("./gas_be_new.csv", index=False)
