@@ -2,6 +2,7 @@ import os
 import requests
 import csv
 import pandas as pd
+from datetime import datetime
 
 ## https://agsi.gie.eu/api/data/be #
 
