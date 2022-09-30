@@ -85,7 +85,7 @@ for x in myjson_BE ['data']:
 
 # Cleaning BE data
 
-df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'in_storage', 'date', 'Pourcentage', 'trend'])
+df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'TWh en stock', 'date', 'Pourcentage', 'trend'])
 df_BE = df_BE.reindex(index=df_BE.index[::-1])
 df_BE["date_fr"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
 df_BE = df_BE[["date", "TWh en stock", "Pourcentage", "date_fr"]]
