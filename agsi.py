@@ -26,31 +26,31 @@ ourdata_BE = []
 
 ourdata_EU_NON_EU = []
 
-csvheader = ["name", "gasDayStart", "full", "trend"]
+csvheader = ["name", "gasInStorage", "gasDayStart", "full", "trend"]
 
 #EU countries
 
 for x in myjson ['data'][0]['children']:
-    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    listing = [x['name'],x['gasInStorage'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_EU.append(listing)
     
 #NON EU countries
 
 for x in myjson ['data'][1]['children']:
-    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    listing = [x['name'],x['gasInStorage'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_NON_EU.append(listing)
     
 #EU_NON_EU countries
 
 for x in myjson ['data']:
-    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    listing = [x['name'],x['gasInStorage'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_EU_NON_EU.append(listing)
    
-df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
+df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
 
-df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
+df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
 
-df_EU_NON_EU = pd.DataFrame (ourdata_EU_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
+df_EU_NON_EU = pd.DataFrame (ourdata_EU_NON_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
 
 # Concat files
 
@@ -68,7 +68,7 @@ df_ALL_FR = pd.merge(df_base, df_ALL)
 
 # Select columns
 
-df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend", "latitude", "longitude"]]
+df_ALL_FR = df_ALL_FR[["name_fr", "in_storage", "percentage_full", "trend", "latitude", "longitude"]]
 
 # Cleaning to add up and down arrows
 
@@ -85,10 +85,10 @@ for x in myjson_BE ['data']:
 
 # Cleaning BE data
 
-df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'date', 'Pourcentage', 'trend'])
+df_BE = pd.DataFrame (ourdata_BE, columns = ['country', 'in_storage', 'date', 'Pourcentage', 'trend'])
 df_BE = df_BE.reindex(index=df_BE.index[::-1])
 df_BE["date_fr"] = pd.to_datetime(df_BE["date"]).dt.strftime('%d/%m/%Y')
-df_BE = df_BE[["date", "Pourcentage", "date_fr"]]
+df_BE = df_BE[["date", "in_storage", "Pourcentage", "date_fr"]]
 
 # Export to csv
 
