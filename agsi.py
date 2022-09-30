@@ -4,8 +4,6 @@ import csv
 import pandas as pd
 from datetime import datetime
 
-pd.set_option('precision', 0)
-
 ## https://agsi.gie.eu/api/data/be #
 
 headers = {
