@@ -46,11 +46,11 @@ for x in myjson ['data']:
     listing = [x['name'],x['gasInStorage'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_EU_NON_EU.append(listing)
    
-df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
+df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'in_storage', 'date', 'percentage_full', 'trend'])
 
-df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
+df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'in_storage', 'date', 'percentage_full', 'trend'])
 
-df_EU_NON_EU = pd.DataFrame (ourdata_EU_NON_EU, columns = ['country', 'date', 'in_storage', 'percentage_full', 'trend'])
+df_EU_NON_EU = pd.DataFrame (ourdata_EU_NON_EU, columns = ['country', 'in_storage', 'date', 'percentage_full', 'trend'])
 
 # Concat files
 
