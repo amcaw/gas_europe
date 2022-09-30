@@ -80,7 +80,7 @@ df_ALL_FR['today']= datetime.today().strftime('%d/%m/%Y')
 #BE
 
 for x in myjson_BE ['data']:
-    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    listing = [x['name'],x['gasInStorage'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_BE.append(listing)
 
 # Cleaning BE data
