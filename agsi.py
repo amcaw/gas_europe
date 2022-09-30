@@ -24,6 +24,8 @@ ourdata_NON_EU = []
 
 ourdata_BE = []
 
+ourdata_EU_NON_EU = []
+
 csvheader = ["name", "gasDayStart", "full", "trend"]
 
 #EU countries
@@ -37,14 +39,22 @@ for x in myjson ['data'][0]['children']:
 for x in myjson ['data'][1]['children']:
     listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
     ourdata_NON_EU.append(listing)
+    
+#EU_NON_EU countries
+
+for x in myjson ['data']:
+    listing = [x['name'],x['gasDayStart'],x['full'],x['trend']]
+    ourdata_EU_NON_EU.append(listing)
    
 df_EU = pd.DataFrame (ourdata_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
 df_NON_EU = pd.DataFrame (ourdata_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
 
+df_EU_NON_EU = pd.DataFrame (ourdata_EU_NON_EU, columns = ['country', 'date', 'percentage_full', 'trend'])
+
 # Concat files
 
-df_ALL = pd.concat([df_EU, df_NON_EU])
+df_ALL = pd.concat([df_EU, df_NON_EU, df_EU_NON_EU])
 
 # Drop rows with empty values
 
