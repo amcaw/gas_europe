@@ -58,7 +58,7 @@ df_ALL_FR = pd.merge(df_base, df_ALL)
 
 # Select columns
 
-df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend"]]
+df_ALL_FR = df_ALL_FR[["name_fr", "percentage_full", "trend", "latitude", "longitude"]]
 
 # Cleaning to add up and down arrows
 
