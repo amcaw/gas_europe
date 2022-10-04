@@ -1,21 +1,21 @@
 country,name_fr,latitude,longitude,total_TWh,pourcentage_conso,deno
-Austria,Autriche,48.210033,16.363449,95.5,102.3,de l'Autriche
+Austria,Autriche,48.210033,16.363449,95.48,102.3,de l'Autriche
 Belgium,Belgique,50.8503396,4.3517103,9,4.7, de la Belgique
 Bulgaria,Bulgarie,42.698334,23.319941,6.27,19.3, de la Bulgarie
 Croatia,Croatie,45.815399,15.966568,5.22,15.5, de la Croatie
-Czech Republic,République tchèque,50.08333333,14.466667,44.4,38.4, de la République tchèque
-Denmark,Danemark,55.66666667,12.583333,10.5,29, du Danemark
-France,France,48.86666667,2.333333,136.4,28.5, de la France
-Germany,Allemagne,52.51666667,13.4,266.4,28.6, de l'Allemagne
-Hungary,Hongrie,47.5,19.083333,69.6,59.8, de la Hongrie
-Italy,Italie,41.9,12.483333,244.7,26.3, de l'Italie
-Latvia,Lettonie,56.95,24.1,24.2,185.8, de la Lettonie
-Netherlands,Pays-Bas,52.35,4.916667,144.6,35.2, des Pays-Bas
-Poland,Pologne,52.25,21,49.1,16.3, de la Pologne
-Portugal,Portugal,38.71666667,-9.133333,3.63,5.3, du Portugal
-Romania,Roumanie,44.43333333,26.1,45.5,25.9, de la Roumanie
-Slovakia,Slovaquie,48.15,17.116667,47.1,73.6, de la Slovaquie
-Spain,Espagne,40.4,-3.683333,34.2,9.5, de l'Espagne
+Czech Republic,République tchèque,50.08333333,14.466667,36.07,38.4, de la République tchèque
+Denmark,Danemark,55.66666667,12.583333,9.08,29, du Danemark
+France,France,48.86666667,2.333333,128.46,28.5, de la France
+Germany,Allemagne,52.51666667,13.4,274.72,28.6, de l'Allemagne
+Hungary,Hongrie,47.5,19.083333,67.7,59.8, de la Hongrie
+Italy,Italie,41.9,12.483333,197.73,26.3, de l'Italie
+Latvia,Lettonie,56.95,24.1,21.8,185.8, de la Lettonie
+Netherlands,Pays-Bas,52.35,4.916667,143.81,35.2, des Pays-Bas
+Poland,Pologne,52.25,21,35.79,16.3, de la Pologne
+Portugal,Portugal,38.71666667,-9.133333,3.57,5.3, du Portugal
+Romania,Roumanie,44.43333333,26.1,32.99,25.9, de la Roumanie
+Slovakia,Slovaquie,48.15,17.116667,38.75,73.6, de la Slovaquie
+Spain,Espagne,40.4,-3.683333,34.25,9.5, de l'Espagne
 Sweden,Suède,59.33333333,18.05,0.1,0.1, de la Suède
 Ukraine,Ukraine,50.4501,30.5234,non précisé,non précisé, de l'Ukraine
 United Kingdom (Post-Brexit),Royaume-Uni,51.509093,-0.094151,non précisé,non précisé, du Royaume-Uni
