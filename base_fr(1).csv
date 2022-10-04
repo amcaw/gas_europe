@@ -1,0 +1,23 @@
+country,name_fr,latitude,longitude,total_TWh,pourcentage_conso
+Austria,Autriche,48.210033,16.363449,95.5,102.3
+Belgium,Belgique,50.8503396,4.3517103,9,4.7
+Bulgaria,Bulgarie,42.698334,23.319941,6.27,19.3
+Croatia,Croatie,45.815399,15.966568,5.22,15.5
+Czech Republic,République tchèque,50.08333333,14.466667,44.4,38.4
+Denmark,Danemark,55.66666667,12.583333,10.5,29
+France,France,48.86666667,2.333333,136.4,28.5
+Germany,Allemagne,52.51666667,13.4,266.4,28.6
+Hungary,Hongrie,47.5,19.083333,69.6,59.8
+Italy,Italie,41.9,12.483333,244.7,26.3
+Latvia,Lettonie,56.95,24.1,24.2,185.8
+Netherlands,Pays-Bas,52.35,4.916667,144.6,35.2
+Poland,Pologne,52.25,21,49.1,16.3
+Portugal,Portugal,38.71666667,-9.133333,3.63,5.3
+Romania,Roumanie,44.43333333,26.1,45.5,25.9
+Slovakia,Slovaquie,48.15,17.116667,47.1,73.6
+Spain,Espagne,40.4,-3.683333,34.2,9.5
+Sweden,Suède,59.33333333,18.05,0.1,0.1
+Ukraine,Ukraine,50.4501,30.5234,non précisé,non précisé
+United Kingdom (Post-Brexit),Royaume-Uni,51.509093,-0.094151,non précisé,non précisé
+EU,Union européenne,,,non précisé,non précisé
+Non-EU,Hors Union européenne,,,non précisé,non précisé
