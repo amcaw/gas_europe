@@ -1,4 +1,4 @@
-"country","name_fr","latitude","longitude","total_TWh","pourcentage_conso",
+"country","name_fr","latitude","longitude","total_TWh","pourcentage_conso"
 "Austria","Autriche","48.210033","16.363449","95.5","102.3"
 "Belgium","Belgique","50.8503396","4.3517103","9","4.7"
 "Bulgaria","Bulgarie","42.698334","23.319941","6.27","19.3"
@@ -18,6 +18,6 @@
 "Spain","Espagne","40.4","-3.683333","34.2","9.5"
 "Sweden","Suède","59.33333333","18.05","0.1","0.1"
 "Ukraine","Ukraine","50.4501","30.5234","non précisé","non précisé"
-"United Kingdom (Post-Brexit)","Royaume-Uni","51.509093","-0.094151"
-"EU","Union européenne",,
-"Non-EU","Hors Union européenne",,
+"United Kingdom (Post-Brexit)","Royaume-Uni","51.509093","-0.094151","non précisé","non précisé"
+"EU","Union européenne","non précisé","non précisé"
+"Non-EU","Hors Union européenne","non précisé","non précisé"
