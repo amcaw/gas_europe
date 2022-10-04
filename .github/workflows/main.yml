@@ -2,8 +2,8 @@ name: Robot data
 
 # Cron pour faire fonctionner le script à 5h45 le mardi et le vendredii
 on:
- schedule:
-    - cron: "0 5 * *, 1-5"
+ push:
+#schedule: - cron: "0 5 * *, 1-5"#
   
 jobs:
   build:
