@@ -73,7 +73,7 @@ df_ALL_FR = df_ALL_FR[["name_fr", "in_storage", "date", "percentage_full", "tren
 # Cleaning to add up and down arrows
 
 df_ALL_FR['trend'] = '<span style="color:green">&#x25B2;</span> ' + df_ALL_FR['trend'].astype(str)
-df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('<span style="color:green">&#x25B2;</span> -','<span style="color:red">&#x25BC;</span> ')
+df_ALL_FR['trend'] = df_ALL_FR['trend'].str.replace('<span style="color:green">&#x25B2;</span> -','<span style="color:red">&#x25BC;</span> -')
 df_ALL_FR['trend'] = df_ALL_FR['trend'].replace({'^<span style="color:green">&#x25B2;</span> 0$':'stable'}, regex = True)
 df_ALL_FR['today']= datetime.today().strftime('%d/%m/%Y')
 
