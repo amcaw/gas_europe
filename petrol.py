@@ -18,4 +18,4 @@ df = df.take([0, -2, -1])
 
 #Send the shit to csv
 
-df.to_csv(r'energie.csv')
+df.to_csv('./energie.csv')
