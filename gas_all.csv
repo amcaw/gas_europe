@@ -1,23 +1,23 @@
 name_fr,in_storage,date,percentage_full,trend,latitude,longitude,total_TWh,pourcentage_conso,deno,today
-Autriche,85.2402,2022-10-23,89.21,"<span style=""color:green"">&#x25B2;</span> 0.58",48.210033,16.363449,95.48,102.3,de l'Autriche,26/10/2022
-Belgique,8.7425,2022-10-23,100,"<span style=""color:green"">&#x25B2;</span> 0.79",50.8503396,4.3517103,9,4.7, de la Belgique,26/10/2022
-Bulgarie,5.0324,2022-10-23,86.73,"<span style=""color:green"">&#x25B2;</span> 0.5",42.698334,23.319941,6.27,19.3, de la Bulgarie,26/10/2022
-Croatie,4.6123,2022-10-23,96.64,"<span style=""color:green"">&#x25B2;</span> 0.43",45.815399,15.966568,5.22,15.5, de la Croatie,26/10/2022
-République tchèque,40.0751,2022-10-23,91.55,"<span style=""color:green"">&#x25B2;</span> 0.4",50.08333333,14.466667,36.07,38.4, de la République tchèque,26/10/2022
-Danemark,9.2181,2022-10-23,99.85,"<span style=""color:green"">&#x25B2;</span> 0.12",55.66666667,12.583333,9.08,29, du Danemark,26/10/2022
-France,132.1964,2022-10-23,99.69,"<span style=""color:green"">&#x25B2;</span> 0.19",48.86666667,2.333333,128.46,28.5, de la France,26/10/2022
-Allemagne,239.1562,2022-10-23,97.53,"<span style=""color:green"">&#x25B2;</span> 0.36",52.51666667,13.4,274.72,28.6, de l'Allemagne,26/10/2022
-Hongrie,55.5288,2022-10-23,82.02,"<span style=""color:green"">&#x25B2;</span> 0.45",47.5,19.083333,67.7,59.8, de la Hongrie,26/10/2022
-Italie,183.3817,2022-10-23,94.8,"<span style=""color:green"">&#x25B2;</span> 0.13",41.9,12.483333,197.73,26.3, de l'Italie,26/10/2022
-Lettonie,13.5149,2022-10-23,56.14,"<span style=""color:green"">&#x25B2;</span> 0.15",56.95,24.1,21.8,185.8, de la Lettonie,26/10/2022
-Pays-Bas,128.1292,2022-10-23,92.19,"<span style=""color:red"">&#x25BC;</span> -0.12",52.35,4.916667,143.81,35.2, des Pays-Bas,26/10/2022
-Pologne,35.7009,2022-10-23,98.05,"<span style=""color:red"">&#x25BC;</span> -0.06",52.25,21.0,35.79,16.3, de la Pologne,26/10/2022
-Portugal,3.9005,2022-10-23,100,stable,38.71666667,-9.133333,3.57,5.3, du Portugal,26/10/2022
-Roumanie,30.8039,2022-10-23,93.93,"<span style=""color:green"">&#x25B2;</span> 0.46",44.43333333,26.1,32.99,25.9, de la Roumanie,26/10/2022
-Slovaquie,34.5871,2022-10-23,93.36,"<span style=""color:green"">&#x25B2;</span> 0.4",48.15,17.116667,38.75,73.6, de la Slovaquie,26/10/2022
-Espagne,32.9563,2022-10-23,93.49,"<span style=""color:green"">&#x25B2;</span> 0.09",40.4,-3.683333,34.25,9.5, de l'Espagne,26/10/2022
-Suède,0.0941,2022-10-23,92.94,stable,59.33333333,18.05,0.1,0.1, de la Suède,26/10/2022
-Ukraine,102.9987,2022-10-23,31.6,"<span style=""color:green"">&#x25B2;</span> 0.05",50.4501,30.5234,non précisé,non précisé, de l'Ukraine,26/10/2022
-Royaume-Uni,10.5843,2022-10-23,100,"<span style=""color:green"">&#x25B2;</span> 2.51",51.509093,-0.094151,non précisé,non précisé, du Royaume-Uni,26/10/2022
-Union européenne,1042.8705,2022-10-23,93.61,"<span style=""color:green"">&#x25B2;</span> 0.24",,,1140.7,27,,26/10/2022
-Hors Union européenne,113.583,2022-10-23,33.84,"<span style=""color:green"">&#x25B2;</span> 0.12",,,non précisé,non précisé,,26/10/2022
+Autriche,85.9639,2022-10-24,89.97,"<span style=""color:green"">&#x25B2;</span> 0.46",48.210033,16.363449,95.48,102.3,de l'Autriche,27/10/2022
+Belgique,8.7565,2022-10-24,100,"<span style=""color:green"">&#x25B2;</span> 0.18",50.8503396,4.3517103,9,4.7, de la Belgique,27/10/2022
+Bulgarie,5.0614,2022-10-24,87.23,"<span style=""color:green"">&#x25B2;</span> 0.5",42.698334,23.319941,6.27,19.3, de la Bulgarie,27/10/2022
+Croatie,4.6204,2022-10-24,96.81,"<span style=""color:green"">&#x25B2;</span> 0.48",45.815399,15.966568,5.22,15.5, de la Croatie,27/10/2022
+République tchèque,40.243,2022-10-24,91.93,"<span style=""color:green"">&#x25B2;</span> 0.39",50.08333333,14.466667,36.07,38.4, de la République tchèque,27/10/2022
+Danemark,9.2141,2022-10-24,99.81,"<span style=""color:red"">&#x25BC;</span> -0.02",55.66666667,12.583333,9.08,29, du Danemark,27/10/2022
+France,132.3033,2022-10-24,99.77,"<span style=""color:green"">&#x25B2;</span> 0.08",48.86666667,2.333333,128.46,28.5, de la France,27/10/2022
+Allemagne,239.6424,2022-10-24,97.73,"<span style=""color:green"">&#x25B2;</span> 0.19",52.51666667,13.4,274.72,28.6, de l'Allemagne,27/10/2022
+Hongrie,55.8382,2022-10-24,82.48,"<span style=""color:green"">&#x25B2;</span> 0.46",47.5,19.083333,67.7,59.8, de la Hongrie,27/10/2022
+Italie,183.5504,2022-10-24,94.89,"<span style=""color:green"">&#x25B2;</span> 0.09",41.9,12.483333,197.73,26.3, de l'Italie,27/10/2022
+Lettonie,13.5407,2022-10-24,56.25,"<span style=""color:green"">&#x25B2;</span> 0.11",56.95,24.1,21.8,185.8, de la Lettonie,27/10/2022
+Pays-Bas,127.9022,2022-10-24,92.02,"<span style=""color:red"">&#x25BC;</span> -0.17",52.35,4.916667,143.81,35.2, des Pays-Bas,27/10/2022
+Pologne,35.6892,2022-10-24,98.02,"<span style=""color:red"">&#x25BC;</span> -0.03",52.25,21.0,35.79,16.3, de la Pologne,27/10/2022
+Portugal,3.9005,2022-10-24,100,stable,38.71666667,-9.133333,3.57,5.3, du Portugal,27/10/2022
+Roumanie,30.9134,2022-10-24,94.27,"<span style=""color:green"">&#x25B2;</span> 0.33",44.43333333,26.1,32.99,25.9, de la Roumanie,27/10/2022
+Slovaquie,34.683,2022-10-24,93.62,"<span style=""color:green"">&#x25B2;</span> 0.26",48.15,17.116667,38.75,73.6, de la Slovaquie,27/10/2022
+Espagne,32.989,2022-10-24,93.58,"<span style=""color:green"">&#x25B2;</span> 0.09",40.4,-3.683333,34.25,9.5, de l'Espagne,27/10/2022
+Suède,0,2022-10-24,0,stable,59.33333333,18.05,0.1,0.1, de la Suède,27/10/2022
+Ukraine,102.8564,2022-10-24,31.64,"<span style=""color:green"">&#x25B2;</span> 0.06",50.4501,30.5234,non précisé,non précisé, de l'Ukraine,27/10/2022
+Royaume-Uni,10.6172,2022-10-24,100,"<span style=""color:green"">&#x25B2;</span> 0.34",51.509093,-0.094151,non précisé,non précisé, du Royaume-Uni,27/10/2022
+Union européenne,1044.8114,2022-10-24,93.79,"<span style=""color:green"">&#x25B2;</span> 0.16",,,1140.7,27,,27/10/2022
+Hors Union européenne,113.4736,2022-10-24,33.89,"<span style=""color:green"">&#x25B2;</span> 0.07",,,non précisé,non précisé,,27/10/2022
