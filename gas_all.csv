@@ -1,23 +1,23 @@
 name_fr,in_storage,date,percentage_full,trend,latitude,longitude,total_TWh,pourcentage_conso,deno,today
-Autriche,85.0484,2022-12-12,89.01,"<span style=""color:red"">&#x25BC;</span> -0.67",48.210033,16.363449,95.48,102.3,de l'Autriche,14/12/2022
-Belgique,6.879,2022-12-12,90.39,"<span style=""color:red"">&#x25BC;</span> -1.1",50.8503396,4.3517103,9,4.7, de la Belgique,14/12/2022
-Bulgarie,4.9977,2022-12-12,86.13,"<span style=""color:red"">&#x25BC;</span> -0.37",42.698334,23.319941,6.27,19.3, de la Bulgarie,14/12/2022
-Croatie,4.4589,2022-12-12,93.43,"<span style=""color:red"">&#x25BC;</span> -0.21",45.815399,15.966568,5.22,15.5, de la Croatie,14/12/2022
-République tchèque,39.0059,2022-12-12,89.05,"<span style=""color:red"">&#x25BC;</span> -0.76",50.08333333,14.466667,36.07,38.4, de la République tchèque,14/12/2022
-Danemark,9.2298,2022-12-12,92.85,"<span style=""color:red"">&#x25BC;</span> -0.95",55.66666667,12.583333,9.08,29, du Danemark,14/12/2022
-France,117.7235,2022-12-12,88.11,"<span style=""color:red"">&#x25BC;</span> -0.9",48.86666667,2.333333,128.46,28.5, de la France,14/12/2022
-Allemagne,227.5403,2022-12-12,92.45,"<span style=""color:red"">&#x25BC;</span> -1.04",52.51666667,13.4,274.72,28.6, de l'Allemagne,14/12/2022
-Hongrie,52.836,2022-12-12,78.04,"<span style=""color:red"">&#x25BC;</span> -0.48",47.5,19.083333,67.7,59.8, de la Hongrie,14/12/2022
-Italie,168.6679,2022-12-12,87.19,"<span style=""color:red"">&#x25BC;</span> -0.45",41.9,12.483333,197.73,26.3, de l'Italie,14/12/2022
-Lettonie,12.4229,2022-12-12,51.6,"<span style=""color:red"">&#x25BC;</span> -0.55",56.95,24.1,21.8,185.8, de la Lettonie,14/12/2022
-Pays-Bas,114.9849,2022-12-12,82.76,"<span style=""color:red"">&#x25BC;</span> -0.67",52.35,4.916667,143.81,35.2, des Pays-Bas,14/12/2022
-Pologne,35.4566,2022-12-12,97.38,"<span style=""color:red"">&#x25BC;</span> -0.06",52.25,21.0,35.79,16.3, de la Pologne,14/12/2022
-Portugal,3.7734,2022-12-12,95.12,"<span style=""color:red"">&#x25BC;</span> -1.31",38.71666667,-9.133333,3.57,5.3, du Portugal,14/12/2022
-Roumanie,29.1136,2022-12-12,88.78,"<span style=""color:red"">&#x25BC;</span> -0.48",44.43333333,26.1,32.99,25.9, de la Roumanie,14/12/2022
-Slovaquie,31.5891,2022-12-12,81.32,"<span style=""color:red"">&#x25BC;</span> -0.6",48.15,17.116667,38.75,73.6, de la Slovaquie,14/12/2022
-Espagne,33.2396,2022-12-12,94.3,"<span style=""color:red"">&#x25BC;</span> -0.18",40.4,-3.683333,34.25,9.5, de l'Espagne,14/12/2022
-Suède,0.0894,2022-12-12,88.24,stable,59.33333333,18.05,0.1,0.1, de la Suède,14/12/2022
-Ukraine,90.8189,2022-12-12,28,"<span style=""color:red"">&#x25BC;</span> -0.15",50.4501,30.5234,non précisé,non précisé, de l'Ukraine,14/12/2022
-Royaume-Uni,8.5669,2022-12-12,87.7,"<span style=""color:red"">&#x25BC;</span> -4.33",51.509093,-0.094151,non précisé,non précisé, du Royaume-Uni,14/12/2022
-Union européenne,977.0569,2022-12-12,87.34,"<span style=""color:red"">&#x25BC;</span> -0.69",,,1140.7,27,,14/12/2022
-Hors Union européenne,99.3858,2022-12-12,29.74,"<span style=""color:red"">&#x25BC;</span> -0.28",,,non précisé,non précisé,,14/12/2022
+Autriche,84.4155,2022-12-13,88.35,"<span style=""color:red"">&#x25BC;</span> -0.66",48.210033,16.363449,95.48,102.3,de l'Autriche,15/12/2022
+Belgique,6.7957,2022-12-13,89.3,"<span style=""color:red"">&#x25BC;</span> -1.1",50.8503396,4.3517103,9,4.7, de la Belgique,15/12/2022
+Bulgarie,4.9761,2022-12-13,85.76,"<span style=""color:red"">&#x25BC;</span> -0.37",42.698334,23.319941,6.27,19.3, de la Bulgarie,15/12/2022
+Croatie,4.4473,2022-12-13,93.19,"<span style=""color:red"">&#x25BC;</span> -0.24",45.815399,15.966568,5.22,15.5, de la Croatie,15/12/2022
+République tchèque,38.5945,2022-12-13,88.12,"<span style=""color:red"">&#x25BC;</span> -0.94",50.08333333,14.466667,36.07,38.4, de la République tchèque,15/12/2022
+Danemark,9.1232,2022-12-13,91.78,"<span style=""color:red"">&#x25BC;</span> -1.06",55.66666667,12.583333,9.08,29, du Danemark,15/12/2022
+France,116.4157,2022-12-13,87.14,"<span style=""color:red"">&#x25BC;</span> -0.98",48.86666667,2.333333,128.46,28.5, de la France,15/12/2022
+Allemagne,224.6233,2022-12-13,91.26,"<span style=""color:red"">&#x25BC;</span> -1.13",52.51666667,13.4,274.72,28.6, de l'Allemagne,15/12/2022
+Hongrie,52.4636,2022-12-13,77.49,"<span style=""color:red"">&#x25BC;</span> -0.55",47.5,19.083333,67.7,59.8, de la Hongrie,15/12/2022
+Italie,167.7784,2022-12-13,86.73,"<span style=""color:red"">&#x25BC;</span> -0.46",41.9,12.483333,197.73,26.3, de l'Italie,15/12/2022
+Lettonie,12.2774,2022-12-13,51,"<span style=""color:red"">&#x25BC;</span> -0.6",56.95,24.1,21.8,185.8, de la Lettonie,15/12/2022
+Pays-Bas,114.1207,2022-12-13,82.14,"<span style=""color:red"">&#x25BC;</span> -0.61",52.35,4.916667,143.81,35.2, des Pays-Bas,15/12/2022
+Pologne,35.3832,2022-12-13,97.18,"<span style=""color:red"">&#x25BC;</span> -0.2",52.25,21.0,35.79,16.3, de la Pologne,15/12/2022
+Portugal,3.7402,2022-12-13,94.28,"<span style=""color:red"">&#x25BC;</span> -0.84",38.71666667,-9.133333,3.57,5.3, du Portugal,15/12/2022
+Roumanie,28.9506,2022-12-13,88.28,"<span style=""color:red"">&#x25BC;</span> -0.5",44.43333333,26.1,32.99,25.9, de la Roumanie,15/12/2022
+Slovaquie,31.3379,2022-12-13,80.67,"<span style=""color:red"">&#x25BC;</span> -0.65",48.15,17.116667,38.75,73.6, de la Slovaquie,15/12/2022
+Espagne,33.1775,2022-12-13,94.12,"<span style=""color:red"">&#x25BC;</span> -0.18",40.4,-3.683333,34.25,9.5, de l'Espagne,15/12/2022
+Suède,0.0894,2022-12-13,88.24,stable,59.33333333,18.05,0.1,0.1, de la Suède,15/12/2022
+Ukraine,90.2309,2022-12-13,27.82,"<span style=""color:red"">&#x25BC;</span> -0.18",50.4501,30.5234,non précisé,non précisé, de l'Ukraine,15/12/2022
+Royaume-Uni,8.1337,2022-12-13,83.26,"<span style=""color:red"">&#x25BC;</span> -4.43",51.509093,-0.094151,non précisé,non précisé, du Royaume-Uni,15/12/2022
+Union européenne,968.7101,2022-12-13,86.59,"<span style=""color:red"">&#x25BC;</span> -0.73",,,1140.7,27,,15/12/2022
+Hors Union européenne,98.3646,2022-12-13,29.44,"<span style=""color:red"">&#x25BC;</span> -0.3",,,non précisé,non précisé,,15/12/2022
